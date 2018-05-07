@@ -47,7 +47,7 @@ body{
 @media screen and (min-width: 991px){
 
   .navbar-nav{
-    margin-left: 80%;
+    margin-left: 75%;
   }
 
   .navbar-dark .navbar-nav .nav-link{
