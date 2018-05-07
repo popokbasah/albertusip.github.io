@@ -29,7 +29,7 @@ body{
     color: brown;
   }
   .div-down-arrow{
-    padding-top: 30%;
+    padding-top: 20%;
     bottom: 25px;
     display: flex;
     justify-content: space-around;
