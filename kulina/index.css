@@ -29,7 +29,7 @@ body{
     color: brown;
   }
   .div-down-arrow{
-    padding-top: 40%;
+    padding-top: 30%;
     bottom: 25px;
     display: flex;
     justify-content: space-around;
@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 50%;
+    padding-top: 60%;
     font-size: 40px;
     color: brown;
   }
@@ -63,6 +63,14 @@ body{
     position: absolute;
     bottom: 25px;
     justify-content: center;
+  }
+  .p-center-first-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 40px;
+    color: brown;
   }
 }
 
