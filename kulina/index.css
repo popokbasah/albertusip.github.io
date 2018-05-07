@@ -1,0 +1,229 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+
+}
+
+#cover{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 991px){
+  .navbar{
+    background: #1F2532 !important;
+    transition: 0.5s;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color: white;
+  }
+  .follow-us{
+    display: none;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: brown;
+  }
+  .div-down-arrow{
+    padding-top: 40%;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .p-center-first-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50%;
+    font-size: 40px;
+    color: brown;
+  }
+}
+
+@media screen and (min-width: 991px){
+
+  .navbar-nav{
+    margin-left: 80%;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+    color: brown;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: #f9f9f9;
+  }
+  .div-down-arrow {
+    margin-left: 50%;
+    margin-right: 50%;
+    position: absolute;
+    bottom: 25px;
+    justify-content: center;
+  }
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.navbar{
+  transition: .5s;
+}
+
+.all-content{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.first-section{
+  background-image: url('images/background_top.jpg');
+  object-fit: cover;
+  height: 500px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.div-nav-first-section{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.ul-style-navicon{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.ul-style-navicon li{
+  float: left;
+  display: block;
+}
+.ul-style-navicon li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.div-image-brand-logo{
+  margin-left: 20px;
+}
+
+.div-image-brand-logo img{
+  width: 100px;
+}
+
+.div-group-right-navbar{
+  width: 300px;
+  height: 20px;
+}
+
+
+
+.arrow {
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  border: solid 4px brown;
+  border-width: 0px 4px 4px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 6px;
+  border-right-width: 6px;
+}
+
+
+
+.second-section{
+  display: flex;
+  background-color: #fff;
+}
+
+.title-second-section-1,.content-second-section-2{
+  position: relative;
+}
+
+.third-section{
+  display: flex;
+}
+
+.content-third-section-2{
+}
+
+.sub-content-third-section-2{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px #888888;
+  margin: 30px 0px;
+}
+
+.title-sub-content-third-section-2 p{
+  display: inline-block;
+  font-size: 13px;
+}
+
+.button-apply{
+  width: 150px;
+  height: 40px;
+  border: 0px;
+  background-color: #ff8c00;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
